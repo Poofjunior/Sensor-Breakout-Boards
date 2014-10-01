@@ -1,0 +1,296 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:bosch-kicad-component-library
+LIBS:VL6180X-sensorBreakout-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VL6180X U1
+U 1 1 5429CB7E
+P 5900 4000
+F 0 "U1" H 5900 3400 60  0000 C CNN
+F 1 "VL6180X" H 5900 4550 60  0000 C CNN
+F 2 "" H 5900 4000 60  0000 C CNN
+F 3 "" H 5900 4000 60  0000 C CNN
+	1    5900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5429CE80
+P 3475 3275
+F 0 "R1" V 3555 3275 40  0000 C CNN
+F 1 "47k" V 3482 3276 40  0000 C CNN
+F 2 "" V 3405 3275 30  0000 C CNN
+F 3 "" H 3475 3275 30  0000 C CNN
+	1    3475 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5429CF18
+P 3675 3275
+F 0 "R2" V 3755 3275 40  0000 C CNN
+F 1 "47k" V 3682 3276 40  0000 C CNN
+F 2 "" V 3605 3275 30  0000 C CNN
+F 3 "" H 3675 3275 30  0000 C CNN
+	1    3675 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5429CFC5
+P 3875 3275
+F 0 "R3" V 3955 3275 40  0000 C CNN
+F 1 "47k" V 3882 3276 40  0000 C CNN
+F 2 "" V 3805 3275 30  0000 C CNN
+F 3 "" H 3875 3275 30  0000 C CNN
+	1    3875 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5429CFFB
+P 4075 3275
+F 0 "R4" V 4155 3275 40  0000 C CNN
+F 1 "47k" V 4082 3276 40  0000 C CNN
+F 2 "" V 4005 3275 30  0000 C CNN
+F 3 "" H 4075 3275 30  0000 C CNN
+	1    4075 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 5429D0D0
+P 3775 2875
+F 0 "#PWR01" H 3775 2975 30  0001 C CNN
+F 1 "VCC" H 3775 2975 30  0000 C CNN
+F 2 "" H 3775 2875 60  0000 C CNN
+F 3 "" H 3775 2875 60  0000 C CNN
+	1    3775 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5429D2B2
+P 7100 2875
+F 0 "#PWR02" H 7100 2975 30  0001 C CNN
+F 1 "VCC" H 7100 2975 30  0000 C CNN
+F 2 "" H 7100 2875 60  0000 C CNN
+F 3 "" H 7100 2875 60  0000 C CNN
+	1    7100 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3025 3475 2975
+Wire Wire Line
+	3475 2975 4075 2975
+Wire Wire Line
+	3775 2975 3775 2875
+Wire Wire Line
+	4075 2975 4075 3025
+Connection ~ 3775 2975
+Wire Wire Line
+	3675 3025 3675 2975
+Connection ~ 3675 2975
+Wire Wire Line
+	3875 3025 3875 2975
+Connection ~ 3875 2975
+Wire Wire Line
+	7100 2875 7100 4250
+Wire Wire Line
+	7100 4250 6750 4250
+Wire Wire Line
+	6750 3950 7100 3950
+Connection ~ 7100 3950
+$Comp
+L GND #PWR03
+U 1 1 5429D4BC
+P 7975 4775
+F 0 "#PWR03" H 7975 4775 30  0001 C CNN
+F 1 "GND" H 7975 4705 30  0001 C CNN
+F 2 "" H 7975 4775 60  0000 C CNN
+F 3 "" H 7975 4775 60  0000 C CNN
+	1    7975 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3650 7975 3650
+Wire Wire Line
+	7975 3650 7975 4775
+Wire Wire Line
+	6750 4100 7975 4100
+Connection ~ 7975 4100
+$Comp
+L C C1
+U 1 1 5429D5E2
+P 7300 3950
+F 0 "C1" H 7300 4050 40  0000 L CNN
+F 1 "100n" H 7306 3865 40  0000 L CNN
+F 2 "" H 7338 3800 30  0000 C CNN
+F 3 "" H 7300 3950 60  0000 C CNN
+	1    7300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 5429D6B2
+P 7300 4250
+F 0 "C2" H 7300 4350 40  0000 L CNN
+F 1 "4.7u" H 7306 4165 40  0000 L CNN
+F 2 "" H 7338 4100 30  0000 C CNN
+F 3 "" H 7300 4250 60  0000 C CNN
+	1    7300 4250
+	0    1    1    0   
+$EndComp
+Connection ~ 7100 4250
+Wire Wire Line
+	7500 3950 7975 3950
+Connection ~ 7975 3950
+Wire Wire Line
+	7500 4250 7975 4250
+Connection ~ 7975 4250
+$Comp
+L CONN_6 P1
+U 1 1 5429DD8A
+P 2925 3900
+F 0 "P1" V 2875 3900 60  0000 C CNN
+F 1 "CONN_6" V 2975 3900 60  0000 C CNN
+F 2 "" H 2925 3900 60  0000 C CNN
+F 3 "" H 2925 3900 60  0000 C CNN
+	1    2925 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3650 3275 3650
+Wire Wire Line
+	3275 3750 4875 3750
+Wire Wire Line
+	4875 3750 4875 4100
+Wire Wire Line
+	4875 4100 5000 4100
+Wire Wire Line
+	5000 4250 4800 4250
+Wire Wire Line
+	4800 4250 4800 3850
+Wire Wire Line
+	4800 3850 3275 3850
+Wire Wire Line
+	5000 4400 4725 4400
+Wire Wire Line
+	4725 4400 4725 3950
+Wire Wire Line
+	4725 3950 3275 3950
+Wire Wire Line
+	3475 3525 3475 3650
+Connection ~ 3475 3650
+Wire Wire Line
+	3675 3525 3675 3750
+Connection ~ 3675 3750
+Wire Wire Line
+	3875 3525 3875 3850
+Connection ~ 3875 3850
+Wire Wire Line
+	4075 3525 4075 3950
+Connection ~ 4075 3950
+$Comp
+L GND #PWR04
+U 1 1 5429E167
+P 3275 4550
+F 0 "#PWR04" H 3275 4550 30  0001 C CNN
+F 1 "GND" H 3275 4480 30  0001 C CNN
+F 2 "" H 3275 4550 60  0000 C CNN
+F 3 "" H 3275 4550 60  0000 C CNN
+	1    3275 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 5429E183
+P 3575 4275
+F 0 "#PWR05" H 3575 4375 30  0001 C CNN
+F 1 "VCC" H 3575 4375 30  0000 C CNN
+F 2 "" H 3575 4275 60  0000 C CNN
+F 3 "" H 3575 4275 60  0000 C CNN
+	1    3575 4275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3275 4150 3275 4550
+Wire Wire Line
+	3575 4275 3575 4050
+Wire Wire Line
+	3575 4050 3275 4050
+$EndSCHEMATC

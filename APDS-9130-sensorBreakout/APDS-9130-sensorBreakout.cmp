@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sun 28 Sep 2014 11:37:46 PM PDT
+
+BeginCmp
+TimeStamp = /542900D1;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54290187;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54290166;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428FA49;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428FF1D;
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428FB2D;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428FBE0;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428FBFD;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428F91F;
+Reference = U1;
+ValeurCmp = APDS-9130;
+IdModule  = boscch-component-library:DFN8-APDS-9130;
+EndCmp
+
+EndListe

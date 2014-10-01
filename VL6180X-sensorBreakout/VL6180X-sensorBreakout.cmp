@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Mon 29 Sep 2014 03:31:20 PM PDT
+
+BeginCmp
+TimeStamp = /5429D5E2;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429D6B2;
+Reference = C2;
+ValeurCmp = 4.7u;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429DD8A;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429CE80;
+Reference = R1;
+ValeurCmp = 47k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429CF18;
+Reference = R2;
+ValeurCmp = 47k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429CFC5;
+Reference = R3;
+ValeurCmp = 47k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429CFFB;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429CB7E;
+Reference = U1;
+ValeurCmp = VL6180X;
+IdModule  = boscch-component-library:Optical-LGA12-VL6180X;
+EndCmp
+
+EndListe
