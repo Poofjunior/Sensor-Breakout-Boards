@@ -1,0 +1,190 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bosch-kicad-component-library
+LIBS:common-ICs
+LIBS:HCTL-2032-sensorBreakout-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "15 nov 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HCTL-2032 U?
+U 1 1 54526DCF
+P 4375 4000
+F 0 "U?" H 4375 3100 60  0000 C CNN
+F 1 "HCTL-2032" H 4375 4950 60  0000 C CNN
+F 2 "" H 4375 4000 60  0000 C CNN
+F 3 "" H 4375 4000 60  0000 C CNN
+	1    4375 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB3-3C-25M0000 U?
+U 1 1 5452BCCE
+P 1900 3550
+F 0 "U?" H 1900 3800 60  0000 C CNN
+F 1 "CB3-3C-25M0000" H 1900 3350 60  0000 C CNN
+F 2 "" H 1900 3550 60  0000 C CNN
+F 3 "" H 1900 3550 60  0000 C CNN
+	1    1900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C 100n
+U 1 1 5452BE4F
+P 975 3550
+F 0 "100n" H 975 3650 40  0000 L CNN
+F 1 "C" H 981 3465 40  0000 L CNN
+F 2 "" H 1013 3400 30  0000 C CNN
+F 3 "" H 975 3550 60  0000 C CNN
+	1    975  3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3650 1175 3650
+Wire Wire Line
+	1175 3650 1175 3750
+Wire Wire Line
+	1175 3750 975  3750
+Wire Wire Line
+	975  3350 975  3225
+Wire Wire Line
+	975  3225 2500 3225
+Wire Wire Line
+	2500 3225 2500 3400
+$Comp
+L 219-2MST S?
+U 1 1 5452DDCD
+P 3450 5875
+F 0 "S?" H 3450 6275 60  0000 C CNN
+F 1 "219-2MST" H 3450 5475 60  0000 C CNN
+F 2 "" H 3350 5925 60  0000 C CNN
+F 3 "" H 3350 5925 60  0000 C CNN
+	1    3450 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5452DED4
+P 2850 6375
+F 0 "R?" V 2930 6375 40  0000 C CNN
+F 1 "R" V 2857 6376 40  0000 C CNN
+F 2 "" V 2780 6375 30  0000 C CNN
+F 3 "" H 2850 6375 30  0000 C CNN
+	1    2850 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5452DF32
+P 4050 6375
+F 0 "R?" V 4130 6375 40  0000 C CNN
+F 1 "R" V 4057 6376 40  0000 C CNN
+F 2 "" V 3980 6375 30  0000 C CNN
+F 3 "" H 4050 6375 30  0000 C CNN
+	1    4050 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5452E011
+P 4050 6750
+F 0 "#PWR?" H 4050 6750 30  0001 C CNN
+F 1 "GND" H 4050 6680 30  0001 C CNN
+F 2 "" H 4050 6750 60  0000 C CNN
+F 3 "" H 4050 6750 60  0000 C CNN
+	1    4050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5452E02B
+P 2850 6750
+F 0 "#PWR?" H 2850 6750 30  0001 C CNN
+F 1 "GND" H 2850 6680 30  0001 C CNN
+F 2 "" H 2850 6750 60  0000 C CNN
+F 3 "" H 2850 6750 60  0000 C CNN
+	1    2850 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6125 2650 6125
+Wire Wire Line
+	2650 6125 2650 5100
+Wire Wire Line
+	2650 5100 4325 5100
+Wire Wire Line
+	4075 6125 4425 6125
+Wire Wire Line
+	4425 6125 4425 5100
+$Comp
+L VCC #PWR?
+U 1 1 5452E067
+P 4050 5400
+F 0 "#PWR?" H 4050 5500 30  0001 C CNN
+F 1 "VCC" H 4050 5500 30  0000 C CNN
+F 2 "" H 4050 5400 60  0000 C CNN
+F 3 "" H 4050 5400 60  0000 C CNN
+	1    4050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5452E0A5
+P 2850 5400
+F 0 "#PWR?" H 2850 5500 30  0001 C CNN
+F 1 "VCC" H 2850 5500 30  0000 C CNN
+F 2 "" H 2850 5400 60  0000 C CNN
+F 3 "" H 2850 5400 60  0000 C CNN
+	1    2850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5400 2850 5650
+Connection ~ 2850 5625
+Wire Wire Line
+	4050 5400 4050 5625
+Wire Wire Line
+	4050 6750 4050 6625
+Wire Wire Line
+	2850 6750 2850 6625
+$EndSCHEMATC
